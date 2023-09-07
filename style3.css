@@ -1,0 +1,54 @@
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+}
+
+.nav {
+    display: flex;
+    align-items: center;
+    padding: 10px 15px;
+}
+
+.nav img {
+    margin-right: 10px;
+}
+
+.container {
+    width: 80%;
+    margin: 0 auto;
+}
+
+.prateek {
+    padding: 10px;
+    margin: 20px 0;
+    border-radius: 10px;
+}
+
+.prateek__question h4 {
+    display: flex;
+    align-items: center;
+}
+
+.prateek__answer p {
+    margin: 10px 0;
+    font-size: 16px;
+}
+
+.hr {
+    margin: 0;
+    padding: 0;
+    border: 1px solid #000;
+}
+
+.prateek:hover {
+    cursor: pointer;
+}
+
+.prateek__answer {
+    display: none;
+}
+
+.prateek.active .prateek__answer {
+    display: block;
+}
